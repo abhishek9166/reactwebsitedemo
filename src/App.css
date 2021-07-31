@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 100;
+    margin-bottom: 40px;
+}
+
+.navbar a{
+    text-decoration: none;
+    background-color: transparent;
+   
+}
+.top{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-nav{
+    display: unset !important;
+}
+.navbar-nav .nav-link{
+    color: black;
+    font-weight: 600;    
+    display: inline-block;
+    margin-right: 8px;
+}
+.footer{
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.form-button{
+    border-radius: 40px !important;
+    background: #3e2c82 !important;
+    border: 1px solid #3e2c82 !important;
+    color: #fff !important;
+}
+
+
+/*-----modal--- */
+.img-modal{
+    text-align: center;
+}
+.send_otp {
+    background: #3e2c82 !important;
+    border: 1px solid #3e2c82 !important;
+    color: #fff !important;
+    margin-top: 10px;
+}
+
+.bs-example{
+    margin: 20px;
+}
+.datatable_filter input{
+    margin-left: 0px !important;
+    border-radius: 50px 50px 50px 50px !important;
+}
+.table-demo{
+    text-align: center;
+}
+table thead th{
+    font-size: 15px;
+    vertical-align: bottom;
+    font-weight: 800;
+}
+/* .input-text .form-text{
+    display: block;
+    width: 100%;
+    outline: none;
+    border-color: none;
+}
+.input-text .form-text:focus{
+    border-color: #3e2c82;
+} */
+
+@media only screen and (max-width: 1200px){
+    table{
+        zoom: 80%;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    table{
+        zoom: 60%;
+    }
+}
+@media only screen and (max-width: 768px){
+    table{
+        zoom: 40%;
+    }
+    .navbar-nav .nav-link{
+        display: inline-block;
+        font-size: 10px;
+        margin-right: 8px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .top{
+        font-size: 30px;
+    }
+    .navbar-nav .nav-link{
+        display: inline-block;
+        font-size: 7px;
+        margin-right: 5px;
+    }
+    table{
+        zoom: 28%;
+    }
+  
+   
+  
+}
+@media only screen and (max-width: 400px){
+    .top{
+        font-size: 25px;
+    }
+    .navbar-nav .nav-link{
+        display: inline-block;
+       font-size: 5px; 
+       margin-right: 3px;     
+    }
+    table{
+        zoom: 20%;
+    }
+    
+}
+
+
